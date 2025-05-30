@@ -7,4 +7,4 @@ export const REFRESH_SECRET_KEY =
 export const PORT = process.env.PORT || 8000;
 export const PUBLIC_PATH = path.join(__dirname, '../../public');
 export const UPLOAD_PATH = path.join(__dirname, '../../public/uploads');
-export const BASE_URL = process.env.BASE_URL || 'http://localhost:8000';
+export const BASE_URL = process.env.BASE_URL || 'http://0.0.0.0:3005';
